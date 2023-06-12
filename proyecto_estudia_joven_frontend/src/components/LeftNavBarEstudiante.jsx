@@ -17,12 +17,12 @@ export default function LeftNavBarEstudiante() {
             <i className="fas fa-user"></i> Mi perfil
           </ListGroup.Item>
         </Link>
-        <Link to="/dashboard" style={{ textDecoration: "none" }}>
+        <Link to="/dashboard-estudiante" style={{ textDecoration: "none" }}>
           <ListGroup.Item as="li" style={{ cursor: 'pointer' }} active={isActive("/dashboard")}>
             Dashboard
           </ListGroup.Item>
         </Link>
-        <Link to="/cursos" style={{ textDecoration: "none" }}>
+        <Link to="/cursos-estudiante" style={{ textDecoration: "none" }}>
           <ListGroup.Item as="li" style={{ cursor: 'pointer' }} active={isActive("/cursos")}>
             Cursos
           </ListGroup.Item>
